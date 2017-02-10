@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+	<html>
+	<body>
+	  <p>Pinland Public school ages.</p>
+<button onclick="myageFunction()">Try it</button>	
+	<script>  
+function myageFunction(){
+var years=0
+var tries = 0
+var text = ""
+var i = 0;
+	do{
+        i++;
+    }while (i<5);
+		while (years!=12)
+		{
+		years = prompt('How old are you?', years)
+		if (years>=1 && years<=9) {alert('The age that you entered is between 1 and 9. You should not be in Grade 8 yet. Tell me your proper age.')
+		}
+		if (years > 100) {
+		alert('Damb you are Old')
+		}
+		if (years > 50){
+		alert('Greater 50')
+		}
+		if (years >= 10 && years < 12){ 
+		alert('If you were &years you would not be in grade 8. Try Again')
+		}
+		else if (years >= 10 && years < 12){ 
+		alert('If you were &years you would not be in grade 8. Try Again')
+		}
+		}
+}
+var multiLine = " This scirpt will ask you: \n 1.Your age \n 2.your name "
+alert(multiLine) // alerts 3 lines
+	  </script>
+	  <p>You are  years old and your teacher is  becasue you are 13 you should be in </p>
+	</body>
+	</html>
+	
